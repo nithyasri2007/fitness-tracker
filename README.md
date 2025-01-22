@@ -59,7 +59,11 @@
                         return ;
                       }
                       const actiitylist=document.getElementById('activitylist');
-                      const listitem=
+                      const listitem=document.getElementById('activitylist');
+                      const listitem=document.createElement('li');
+                      listitem.textcontent='date': ${date},'steps':${steps},'calories' :${calories},'workout time' :${workout time}mins;
+                      activitylist.appendchild(listItems);
+                      document.getElementById('fitness-form').reset();
                 }
             </script>
         </div><br>
