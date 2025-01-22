@@ -8,6 +8,7 @@
             header h1{
                   text-align :center;
                   font-family: Georgia, 'Times New Roman', Times, serif;
+                  font-shadow:20px;
             }
             header p{
                 text-align: right;
@@ -17,6 +18,7 @@
                 height :auto;
                 width :auto;
             }
+            
         </style>
     </head>
     <body>
